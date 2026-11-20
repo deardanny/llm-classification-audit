@@ -170,7 +170,7 @@ def write():
         fig.set_figheight(new_h)
         for ax,box in positions:
             ax.set_position([box.x0,(box.y0*old_h+new_h-old_h)/new_h,box.width,box.height*old_h/new_h])
-        fig.text(.045,(new_h-old_h+.18)/new_h,textwrap.fill(CAPTIONS[name],width=128),
+        fig.text(.045,(new_h-old_h+.18)/new_h,textwrap.fill(CAPTIONS[name],width=110),
                  ha='left',va='top',fontfamily='DejaVu Serif',fontsize=7.5,linespacing=1.25)
         pages.append(fig)
     with PdfPages(OUT/'research-figures.pdf',metadata={'Title':'Classification audit: aggregate research figures','Author':'Daniel Jang'}) as pdf:
