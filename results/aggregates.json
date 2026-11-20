@@ -1,0 +1,138 @@
+{
+  "release": "2026-11-20",
+  "data_kind": "Observed aggregate counts; no reference labels",
+  "organization": "Company A [Confidential]",
+  "models": {
+    "classifier": "claude-haiku-4-5-20251001",
+    "auditor": "jev-1.14.0"
+  },
+  "audit": {
+    "source_rows": 12531,
+    "audit_verdicts": {
+      "supported": 10105,
+      "hold": 2224,
+      "contradicted": 202
+    }
+  },
+  "grouping": {
+    "selected": 152,
+    "unavailable": 2,
+    "results": {
+      "rows": 150,
+      "state_pairs": {
+        "two_off_topic -> two_on_topic": 79,
+        "two_off_topic -> two_off_topic": 44,
+        "two_off_topic -> mixed": 7,
+        "mixed -> two_on_topic": 16,
+        "two_on_topic -> two_off_topic": 1,
+        "two_on_topic -> two_on_topic": 2,
+        "mixed -> two_off_topic": 1
+      },
+      "batch_on_topic_by_repeat": [
+        11,
+        12
+      ],
+      "singleton_on_topic_by_repeat": [
+        98,
+        103
+      ]
+    }
+  },
+  "prompt": {
+    "selected": 201,
+    "target_row_statistics": {
+      "paired_transitions": {
+        "on_topic -> on_topic": 13,
+        "off_topic -> on_topic": 36,
+        "off_topic -> off_topic": 144,
+        "on_topic -> off_topic": 8
+      }
+    }
+  },
+  "masking": {
+    "primary_all_targets": {
+      "rows": 1171,
+      "paired_valid": 1171,
+      "paired_unavailable": 0,
+      "control_to_repair": {
+        "same_on_topic": 1088,
+        "same_off_topic": 61,
+        "off_topic_to_on_topic": 18,
+        "on_topic_to_off_topic": 4
+      },
+      "changed": 22,
+      "change_fraction_among_valid": 0.018787361229718188,
+      "historical_off": 77,
+      "control_off": 79,
+      "repair_off": 65,
+      "net_off_rate_change_pp": -1.1955593509820666,
+      "historical_to_control_changes": 10,
+      "historical_to_repair_changes": 26
+    },
+    "primary_change_repeat_patterns": {
+      "stable_off_topic_to_on_topic": 15,
+      "one_or_both_arms_unstable": 3,
+      "stable_on_topic_to_off_topic": 4
+    }
+  },
+  "output_designs": {
+    "A": {
+      "inputs": 160,
+      "planned_jobs": 320,
+      "attempts": 336,
+      "first_pass_contract_valid": 308,
+      "first_pass_schema_valid": 308,
+      "final_valid_jobs": 319,
+      "final_pair_states": {
+        "both_on_topic": 67,
+        "both_off_topic": 90,
+        "unavailable": 1,
+        "repeat_change": 2
+      },
+      "final_stable_binary": 157,
+      "cost_usd_all_attempts": 0.167463,
+      "first_pass_latency_p50_s": 0.520885770998575
+    },
+    "B": {
+      "inputs": 160,
+      "planned_jobs": 320,
+      "attempts": 320,
+      "first_pass_contract_valid": 320,
+      "first_pass_schema_valid": 320,
+      "final_valid_jobs": 320,
+      "final_pair_states": {
+        "both_on_topic": 92,
+        "repeat_change": 10,
+        "both_off_topic": 58
+      },
+      "final_stable_binary": 150,
+      "cost_usd_all_attempts": 0.226605,
+      "first_pass_latency_p50_s": 0.6156447915000172
+    },
+    "C": {
+      "inputs": 160,
+      "planned_jobs": 320,
+      "attempts": 397,
+      "first_pass_contract_valid": 273,
+      "first_pass_schema_valid": 320,
+      "final_valid_jobs": 291,
+      "final_pair_states": {
+        "both_on_topic": 115,
+        "unavailable": 19,
+        "both_hold": 22,
+        "repeat_change": 3,
+        "both_off_topic": 1
+      },
+      "final_stable_binary": 116,
+      "cost_usd_all_attempts": 1.287601,
+      "first_pass_latency_p50_s": 1.8094929795024655
+    }
+  },
+  "limitations": [
+    "No independent accuracy measurement",
+    "Selected overlapping cohorts",
+    "Two repetitions per condition",
+    "Initial classifier/auditor input-length asymmetry",
+    "Private per-record provenance withheld"
+  ]
+}

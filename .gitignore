@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+data/private/
+runs/
+private/
+*.log
+.ipynb_checkpoints/
+.mplconfig/
