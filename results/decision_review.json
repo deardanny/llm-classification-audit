@@ -1,0 +1,2061 @@
+{
+  "source_rows": 12628,
+  "respondents": 361,
+  "schools": 10,
+  "review_queue_inputs": 433,
+  "primary_budget": 20,
+  "random_runs": 1000,
+  "new_model_requests": 0,
+  "new_cost_usd": 0,
+  "cumulative_cost_usd": 9.842893667999995,
+  "reference": "Cached model interpretations; not expert ground truth",
+  "decision_proxy": "Top two positive-count themes per school, counting each respondent once per theme",
+  "publication_date": "2026-11-26",
+  "results": {
+    "primary": {
+      "resolved_review_inputs": 374,
+      "unresolved_review_inputs": 59,
+      "baseline": {
+        "score_shortfall_pp": 9.207537813369832,
+        "slot_errors": 14,
+        "schools_with_mismatch": 9
+      },
+      "curves": [
+        {
+          "reviews": 0,
+          "impact": {
+            "reviews": 0,
+            "score_shortfall_pp": 9.207537813369832,
+            "slot_errors": 14,
+            "schools_with_mismatch": 9,
+            "changed_inputs": 0,
+            "unresolved_reviews": 0,
+            "words_reviewed": 0
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 9.207537813369836,
+              "median": 9.207537813369832,
+              "p025": 9.207537813369832,
+              "p975": 9.207537813369832,
+              "min": 9.207537813369832,
+              "max": 9.207537813369832
+            },
+            "slot_errors": {
+              "mean": 14.0,
+              "median": 14.0,
+              "p025": 14.0,
+              "p975": 14.0,
+              "min": 14.0,
+              "max": 14.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.0,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 9.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 9.207537813369832,
+              "median": 9.207537813369832,
+              "p025": 9.207537813369832,
+              "p975": 9.207537813369832,
+              "min": 9.207537813369832,
+              "max": 9.207537813369832
+            },
+            "slot_errors": {
+              "mean": 14.0,
+              "median": 14.0,
+              "p025": 14.0,
+              "p975": 14.0,
+              "min": 14.0,
+              "max": 14.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.0,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 9.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 1.0
+        },
+        {
+          "reviews": 5,
+          "impact": {
+            "reviews": 5,
+            "score_shortfall_pp": 8.096426702258722,
+            "slot_errors": 13,
+            "schools_with_mismatch": 9,
+            "changed_inputs": 4,
+            "unresolved_reviews": 0,
+            "words_reviewed": 269
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 9.136567444957283,
+              "median": 9.207537813369832,
+              "p025": 8.493252099084117,
+              "p975": 9.207537813369832,
+              "min": 6.550532982451958,
+              "max": 10.457537813369834
+            },
+            "slot_errors": {
+              "mean": 13.981,
+              "median": 14.0,
+              "p025": 13.0,
+              "p975": 14.0,
+              "min": 13.0,
+              "max": 15.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.0,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 9.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 2.499,
+              "median": 3.0,
+              "p025": 0.0,
+              "p975": 5.0,
+              "min": 0.0,
+              "max": 5.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.65,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 2.0,
+              "min": 0.0,
+              "max": 5.0
+            },
+            "words_reviewed": {
+              "mean": 213.929,
+              "median": 197.0,
+              "p025": 96.0,
+              "p975": 413.07499999999993,
+              "min": 58.0,
+              "max": 609.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 8.1757917816238,
+              "median": 8.096426702258722,
+              "p025": 8.096426702258722,
+              "p975": 8.453569559401577,
+              "min": 8.096426702258722,
+              "max": 8.493252099084117
+            },
+            "slot_errors": {
+              "mean": 13.0,
+              "median": 13.0,
+              "p025": 13.0,
+              "p975": 13.0,
+              "min": 13.0,
+              "max": 13.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.0,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 9.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 4.4,
+              "median": 4.0,
+              "p025": 4.0,
+              "p975": 5.0,
+              "min": 4.0,
+              "max": 5.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 327.8,
+              "median": 324.0,
+              "p025": 270.0,
+              "p975": 393.5,
+              "min": 269.0,
+              "max": 396.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.011,
+          "fraction_random_with_equal_or_lower_loss": 0.021
+        },
+        {
+          "reviews": 10,
+          "impact": {
+            "reviews": 10,
+            "score_shortfall_pp": 6.985315591147609,
+            "slot_errors": 13,
+            "schools_with_mismatch": 9,
+            "changed_inputs": 7,
+            "unresolved_reviews": 0,
+            "words_reviewed": 601
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 9.06326467195169,
+              "median": 9.207537813369832,
+              "p025": 7.990043723535317,
+              "p975": 9.207537813369832,
+              "min": 6.550532982451958,
+              "max": 10.457537813369834
+            },
+            "slot_errors": {
+              "mean": 13.953,
+              "median": 14.0,
+              "p025": 13.0,
+              "p975": 14.0,
+              "min": 12.0,
+              "max": 15.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.998,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 8.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 4.962,
+              "median": 5.0,
+              "p025": 2.0,
+              "p975": 8.0,
+              "min": 0.0,
+              "max": 9.0
+            },
+            "unresolved_reviews": {
+              "mean": 1.314,
+              "median": 1.0,
+              "p025": 0.0,
+              "p975": 4.0,
+              "min": 0.0,
+              "max": 6.0
+            },
+            "words_reviewed": {
+              "mean": 426.876,
+              "median": 414.0,
+              "p025": 237.975,
+              "p975": 709.1499999999999,
+              "min": 176.0,
+              "max": 1032.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 7.064680670512689,
+              "median": 6.985315591147609,
+              "p025": 5.985315591147609,
+              "p975": 8.02499813083015,
+              "min": 5.874204480036498,
+              "max": 8.096426702258722
+            },
+            "slot_errors": {
+              "mean": 12.6,
+              "median": 13.0,
+              "p025": 12.0,
+              "p975": 13.0,
+              "min": 12.0,
+              "max": 13.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.8,
+              "median": 9.0,
+              "p025": 8.1,
+              "p975": 9.0,
+              "min": 8.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 7.0,
+              "median": 7.0,
+              "p025": 6.1,
+              "p975": 7.9,
+              "min": 6.0,
+              "max": 8.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 665.4,
+              "median": 664.0,
+              "p025": 606.0,
+              "p975": 715.5,
+              "min": 601.0,
+              "max": 718.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.006,
+          "fraction_random_with_equal_or_lower_loss": 0.016
+        },
+        {
+          "reviews": 20,
+          "impact": {
+            "reviews": 20,
+            "score_shortfall_pp": 5.874204480036498,
+            "slot_errors": 12,
+            "schools_with_mismatch": 8,
+            "changed_inputs": 13,
+            "unresolved_reviews": 0,
+            "words_reviewed": 1144
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.920126084559142,
+              "median": 9.101154834646428,
+              "p025": 6.878932612424205,
+              "p975": 10.02275520467418,
+              "min": 5.836247268166243,
+              "max": 10.457537813369834
+            },
+            "slot_errors": {
+              "mean": 13.889,
+              "median": 14.0,
+              "p025": 13.0,
+              "p975": 15.0,
+              "min": 12.0,
+              "max": 15.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.987,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 8.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 9.972,
+              "median": 10.0,
+              "p025": 6.0,
+              "p975": 14.0,
+              "min": 3.0,
+              "max": 16.0
+            },
+            "unresolved_reviews": {
+              "mean": 2.658,
+              "median": 3.0,
+              "p025": 0.0,
+              "p975": 6.0,
+              "min": 0.0,
+              "max": 8.0
+            },
+            "words_reviewed": {
+              "mean": 860.338,
+              "median": 853.0,
+              "p025": 576.95,
+              "p975": 1201.05,
+              "min": 448.0,
+              "max": 1566.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 5.731347337179355,
+              "median": 5.874204480036498,
+              "p025": 5.231347337179355,
+              "p975": 5.874204480036498,
+              "min": 5.159918765750784,
+              "max": 5.874204480036498
+            },
+            "slot_errors": {
+              "mean": 11.8,
+              "median": 12.0,
+              "p025": 11.1,
+              "p975": 12.0,
+              "min": 11.0,
+              "max": 12.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.0,
+              "median": 8.0,
+              "p025": 8.0,
+              "p975": 8.0,
+              "min": 8.0,
+              "max": 8.0
+            },
+            "changed_inputs": {
+              "mean": 13.0,
+              "median": 13.0,
+              "p025": 13.0,
+              "p975": 13.0,
+              "min": 13.0,
+              "max": 13.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 1145.2,
+              "median": 1144.0,
+              "p025": 1144.0,
+              "p975": 1149.4,
+              "min": 1144.0,
+              "max": 1150.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.001,
+          "fraction_random_with_equal_or_lower_loss": 0.001
+        },
+        {
+          "reviews": 40,
+          "impact": {
+            "reviews": 40,
+            "score_shortfall_pp": 2.9071715130035316,
+            "slot_errors": 8,
+            "schools_with_mismatch": 6,
+            "changed_inputs": 28,
+            "unresolved_reviews": 1,
+            "words_reviewed": 2509
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.705033538741944,
+              "median": 8.77275520467418,
+              "p025": 6.550532982451958,
+              "p975": 10.35115483464643,
+              "min": 6.074342506261481,
+              "max": 10.88306972826345
+            },
+            "slot_errors": {
+              "mean": 13.747,
+              "median": 14.0,
+              "p025": 12.0,
+              "p975": 15.0,
+              "min": 11.0,
+              "max": 16.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.959,
+              "median": 9.0,
+              "p025": 8.0,
+              "p975": 9.0,
+              "min": 8.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 19.834,
+              "median": 20.0,
+              "p025": 14.0,
+              "p975": 26.0,
+              "min": 8.0,
+              "max": 29.0
+            },
+            "unresolved_reviews": {
+              "mean": 5.407,
+              "median": 5.0,
+              "p025": 2.0,
+              "p975": 10.0,
+              "min": 0.0,
+              "max": 12.0
+            },
+            "words_reviewed": {
+              "mean": 1715.014,
+              "median": 1704.0,
+              "p025": 1295.775,
+              "p975": 2178.025,
+              "min": 1057.0,
+              "max": 2471.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 2.7821715130035316,
+              "median": 2.9071715130035316,
+              "p025": 2.3446715130035316,
+              "p975": 2.9071715130035316,
+              "min": 2.2821715130035316,
+              "max": 2.9071715130035316
+            },
+            "slot_errors": {
+              "mean": 7.8,
+              "median": 8.0,
+              "p025": 7.1,
+              "p975": 8.0,
+              "min": 7.0,
+              "max": 8.0
+            },
+            "schools_with_mismatch": {
+              "mean": 5.8,
+              "median": 6.0,
+              "p025": 5.1,
+              "p975": 6.0,
+              "min": 5.0,
+              "max": 6.0
+            },
+            "changed_inputs": {
+              "mean": 26.6,
+              "median": 26.0,
+              "p025": 24.0,
+              "p975": 30.7,
+              "min": 24.0,
+              "max": 31.0
+            },
+            "unresolved_reviews": {
+              "mean": 1.8,
+              "median": 2.0,
+              "p025": 1.0,
+              "p975": 2.9,
+              "min": 1.0,
+              "max": 3.0
+            },
+            "words_reviewed": {
+              "mean": 2335.8,
+              "median": 2401.0,
+              "p025": 2085.1,
+              "p975": 2581.9,
+              "min": 2084.0,
+              "max": 2590.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        },
+        {
+          "reviews": 50,
+          "impact": {
+            "reviews": 50,
+            "score_shortfall_pp": 2.4309810368130553,
+            "slot_errors": 7,
+            "schools_with_mismatch": 5,
+            "changed_inputs": 33,
+            "unresolved_reviews": 3,
+            "words_reviewed": 2770
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.581836856371089,
+              "median": 8.77275520467418,
+              "p025": 6.444150003728554,
+              "p975": 10.35115483464643,
+              "min": 5.729864289442839,
+              "max": 10.780118458531124
+            },
+            "slot_errors": {
+              "mean": 13.656,
+              "median": 14.0,
+              "p025": 12.0,
+              "p975": 15.0,
+              "min": 11.0,
+              "max": 16.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.942,
+              "median": 9.0,
+              "p025": 8.0,
+              "p975": 9.0,
+              "min": 8.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 24.843,
+              "median": 25.0,
+              "p025": 18.0,
+              "p975": 31.0,
+              "min": 13.0,
+              "max": 35.0
+            },
+            "unresolved_reviews": {
+              "mean": 6.742,
+              "median": 7.0,
+              "p025": 3.0,
+              "p975": 12.0,
+              "min": 1.0,
+              "max": 13.0
+            },
+            "words_reviewed": {
+              "mean": 2147.438,
+              "median": 2140.0,
+              "p025": 1670.875,
+              "p975": 2642.05,
+              "min": 1449.0,
+              "max": 3057.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 2.3059810368130553,
+              "median": 2.4309810368130553,
+              "p025": 1.8684810368130553,
+              "p975": 2.4309810368130553,
+              "min": 1.8059810368130553,
+              "max": 2.4309810368130553
+            },
+            "slot_errors": {
+              "mean": 6.8,
+              "median": 7.0,
+              "p025": 6.1,
+              "p975": 7.0,
+              "min": 6.0,
+              "max": 7.0
+            },
+            "schools_with_mismatch": {
+              "mean": 4.8,
+              "median": 5.0,
+              "p025": 4.1,
+              "p975": 5.0,
+              "min": 4.0,
+              "max": 5.0
+            },
+            "changed_inputs": {
+              "mean": 32.4,
+              "median": 32.0,
+              "p025": 30.0,
+              "p975": 36.6,
+              "min": 30.0,
+              "max": 37.0
+            },
+            "unresolved_reviews": {
+              "mean": 3.6,
+              "median": 3.0,
+              "p025": 3.0,
+              "p975": 5.699999999999999,
+              "min": 3.0,
+              "max": 6.0
+            },
+            "words_reviewed": {
+              "mean": 2739.6,
+              "median": 2737.0,
+              "p025": 2634.1,
+              "p975": 2834.8,
+              "min": 2624.0,
+              "max": 2842.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        },
+        {
+          "reviews": 80,
+          "impact": {
+            "reviews": 80,
+            "score_shortfall_pp": 2.4309810368130553,
+            "slot_errors": 7,
+            "schools_with_mismatch": 5,
+            "changed_inputs": 50,
+            "unresolved_reviews": 10,
+            "words_reviewed": 3646
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.291657076069402,
+              "median": 8.592027116337395,
+              "p025": 6.108817859770137,
+              "p975": 10.061672737459721,
+              "min": 5.360056791975767,
+              "max": 10.780118458531124
+            },
+            "slot_errors": {
+              "mean": 13.378,
+              "median": 13.0,
+              "p025": 12.0,
+              "p975": 15.0,
+              "min": 11.0,
+              "max": 16.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.867,
+              "median": 9.0,
+              "p025": 8.0,
+              "p975": 9.0,
+              "min": 7.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 39.746,
+              "median": 40.0,
+              "p025": 31.0,
+              "p975": 48.0,
+              "min": 26.0,
+              "max": 52.0
+            },
+            "unresolved_reviews": {
+              "mean": 10.768,
+              "median": 11.0,
+              "p025": 5.0,
+              "p975": 16.0,
+              "min": 3.0,
+              "max": 20.0
+            },
+            "words_reviewed": {
+              "mean": 3438.712,
+              "median": 3423.5,
+              "p025": 2817.85,
+              "p975": 4094.025,
+              "min": 2520.0,
+              "max": 4455.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 2.4350132948775713,
+              "median": 2.4309810368130553,
+              "p025": 1.8684810368130553,
+              "p975": 2.7535616819743454,
+              "min": 1.8059810368130553,
+              "max": 2.7535616819743454
+            },
+            "slot_errors": {
+              "mean": 7.2,
+              "median": 7.0,
+              "p025": 6.1,
+              "p975": 8.0,
+              "min": 6.0,
+              "max": 8.0
+            },
+            "schools_with_mismatch": {
+              "mean": 5.2,
+              "median": 5.0,
+              "p025": 4.1,
+              "p975": 6.0,
+              "min": 4.0,
+              "max": 6.0
+            },
+            "changed_inputs": {
+              "mean": 48.0,
+              "median": 47.0,
+              "p025": 46.0,
+              "p975": 50.9,
+              "min": 46.0,
+              "max": 51.0
+            },
+            "unresolved_reviews": {
+              "mean": 10.6,
+              "median": 11.0,
+              "p025": 9.1,
+              "p975": 11.9,
+              "min": 9.0,
+              "max": 12.0
+            },
+            "words_reviewed": {
+              "mean": 3616.2,
+              "median": 3646.0,
+              "p025": 3557.0,
+              "p975": 3656.9,
+              "min": 3556.0,
+              "max": 3657.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        },
+        {
+          "reviews": 100,
+          "impact": {
+            "reviews": 100,
+            "score_shortfall_pp": 1.8904404962725145,
+            "slot_errors": 5,
+            "schools_with_mismatch": 4,
+            "changed_inputs": 59,
+            "unresolved_reviews": 12,
+            "words_reviewed": 4696
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.085828364807293,
+              "median": 8.1901817497603,
+              "p025": 5.836247268166243,
+              "p975": 10.023612254247015,
+              "min": 5.121961553880529,
+              "max": 10.78362476989157
+            },
+            "slot_errors": {
+              "mean": 13.148,
+              "median": 13.0,
+              "p025": 11.0,
+              "p975": 15.0,
+              "min": 10.0,
+              "max": 16.0
+            },
+            "schools_with_mismatch": {
+              "mean": 8.8,
+              "median": 9.0,
+              "p025": 8.0,
+              "p975": 9.0,
+              "min": 7.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 49.693,
+              "median": 50.0,
+              "p025": 41.0,
+              "p975": 58.02499999999998,
+              "min": 37.0,
+              "max": 64.0
+            },
+            "unresolved_reviews": {
+              "mean": 13.466,
+              "median": 13.0,
+              "p025": 8.0,
+              "p975": 19.0,
+              "min": 5.0,
+              "max": 24.0
+            },
+            "words_reviewed": {
+              "mean": 4301.602,
+              "median": 4300.5,
+              "p025": 3630.95,
+              "p975": 4970.2,
+              "min": 3369.0,
+              "max": 5419.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 2.0261718158273636,
+              "median": 1.8904404962725145,
+              "p025": 1.8120422450801459,
+              "p975": 2.401569272107173,
+              "min": 1.8059810368130553,
+              "max": 2.4309810368130553
+            },
+            "slot_errors": {
+              "mean": 5.8,
+              "median": 6.0,
+              "p025": 5.0,
+              "p975": 6.9,
+              "min": 5.0,
+              "max": 7.0
+            },
+            "schools_with_mismatch": {
+              "mean": 4.2,
+              "median": 4.0,
+              "p025": 4.0,
+              "p975": 4.9,
+              "min": 4.0,
+              "max": 5.0
+            },
+            "changed_inputs": {
+              "mean": 58.8,
+              "median": 59.0,
+              "p025": 56.0,
+              "p975": 61.9,
+              "min": 56.0,
+              "max": 62.0
+            },
+            "unresolved_reviews": {
+              "mean": 15.0,
+              "median": 15.0,
+              "p025": 12.3,
+              "p975": 16.9,
+              "min": 12.0,
+              "max": 17.0
+            },
+            "words_reviewed": {
+              "mean": 4467.0,
+              "median": 4424.0,
+              "p025": 4207.5,
+              "p975": 4690.0,
+              "min": 4187.0,
+              "max": 4696.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        }
+      ]
+    },
+    "alternative_proxy": {
+      "resolved_review_inputs": 382,
+      "unresolved_review_inputs": 51,
+      "baseline": {
+        "score_shortfall_pp": 9.708210072718348,
+        "slot_errors": 17,
+        "schools_with_mismatch": 10
+      },
+      "curves": [
+        {
+          "reviews": 0,
+          "impact": {
+            "reviews": 0,
+            "score_shortfall_pp": 9.708210072718348,
+            "slot_errors": 17,
+            "schools_with_mismatch": 10,
+            "changed_inputs": 0,
+            "unresolved_reviews": 0,
+            "words_reviewed": 0
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 9.708210072718346,
+              "median": 9.708210072718348,
+              "p025": 9.708210072718348,
+              "p975": 9.708210072718348,
+              "min": 9.708210072718348,
+              "max": 9.708210072718348
+            },
+            "slot_errors": {
+              "mean": 17.0,
+              "median": 17.0,
+              "p025": 17.0,
+              "p975": 17.0,
+              "min": 17.0,
+              "max": 17.0
+            },
+            "schools_with_mismatch": {
+              "mean": 10.0,
+              "median": 10.0,
+              "p025": 10.0,
+              "p975": 10.0,
+              "min": 10.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 9.708210072718348,
+              "median": 9.708210072718348,
+              "p025": 9.708210072718348,
+              "p975": 9.708210072718348,
+              "min": 9.708210072718348,
+              "max": 9.708210072718348
+            },
+            "slot_errors": {
+              "mean": 17.0,
+              "median": 17.0,
+              "p025": 17.0,
+              "p975": 17.0,
+              "min": 17.0,
+              "max": 17.0
+            },
+            "schools_with_mismatch": {
+              "mean": 10.0,
+              "median": 10.0,
+              "p025": 10.0,
+              "p975": 10.0,
+              "min": 10.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 1.0
+        },
+        {
+          "reviews": 5,
+          "impact": {
+            "reviews": 5,
+            "score_shortfall_pp": 8.597098961607236,
+            "slot_errors": 16,
+            "schools_with_mismatch": 10,
+            "changed_inputs": 4,
+            "unresolved_reviews": 0,
+            "words_reviewed": 308
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 9.59004985951188,
+              "median": 9.708210072718348,
+              "p025": 8.597098961607236,
+              "p975": 9.708210072718348,
+              "min": 8.17156704671362,
+              "max": 10.333210072718348
+            },
+            "slot_errors": {
+              "mean": 16.793,
+              "median": 17.0,
+              "p025": 16.0,
+              "p975": 17.0,
+              "min": 15.0,
+              "max": 18.0
+            },
+            "schools_with_mismatch": {
+              "mean": 10.0,
+              "median": 10.0,
+              "p025": 10.0,
+              "p975": 10.0,
+              "min": 10.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 2.544,
+              "median": 3.0,
+              "p025": 0.0,
+              "p975": 5.0,
+              "min": 0.0,
+              "max": 5.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.585,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 2.0,
+              "min": 0.0,
+              "max": 4.0
+            },
+            "words_reviewed": {
+              "mean": 213.929,
+              "median": 197.0,
+              "p025": 96.0,
+              "p975": 413.07499999999993,
+              "min": 58.0,
+              "max": 609.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 8.597098961607236,
+              "median": 8.597098961607236,
+              "p025": 8.597098961607236,
+              "p975": 8.597098961607236,
+              "min": 8.597098961607236,
+              "max": 8.597098961607236
+            },
+            "slot_errors": {
+              "mean": 16.0,
+              "median": 16.0,
+              "p025": 16.0,
+              "p975": 16.0,
+              "min": 16.0,
+              "max": 16.0
+            },
+            "schools_with_mismatch": {
+              "mean": 10.0,
+              "median": 10.0,
+              "p025": 10.0,
+              "p975": 10.0,
+              "min": 10.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 4.0,
+              "median": 4.0,
+              "p025": 4.0,
+              "p975": 4.0,
+              "min": 4.0,
+              "max": 4.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 308.0,
+              "median": 308.0,
+              "p025": 308.0,
+              "p975": 308.0,
+              "min": 308.0,
+              "max": 308.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.007,
+          "fraction_random_with_equal_or_lower_loss": 0.058
+        },
+        {
+          "reviews": 10,
+          "impact": {
+            "reviews": 10,
+            "score_shortfall_pp": 7.485987850496125,
+            "slot_errors": 15,
+            "schools_with_mismatch": 9,
+            "changed_inputs": 6,
+            "unresolved_reviews": 0,
+            "words_reviewed": 601
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 9.48404167379302,
+              "median": 9.708210072718348,
+              "p025": 8.560957932577677,
+              "p975": 10.007123116196608,
+              "min": 7.629357026123365,
+              "max": 10.333210072718348
+            },
+            "slot_errors": {
+              "mean": 16.614,
+              "median": 17.0,
+              "p025": 15.0,
+              "p975": 17.0,
+              "min": 14.0,
+              "max": 18.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.996,
+              "median": 10.0,
+              "p025": 10.0,
+              "p975": 10.0,
+              "min": 9.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 5.064,
+              "median": 5.0,
+              "p025": 2.0,
+              "p975": 8.0,
+              "min": 0.0,
+              "max": 10.0
+            },
+            "unresolved_reviews": {
+              "mean": 1.137,
+              "median": 1.0,
+              "p025": 0.0,
+              "p975": 3.0,
+              "min": 0.0,
+              "max": 5.0
+            },
+            "words_reviewed": {
+              "mean": 426.876,
+              "median": 414.0,
+              "p025": 237.975,
+              "p975": 709.1499999999999,
+              "min": 176.0,
+              "max": 1032.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 7.485987850496125,
+              "median": 7.485987850496125,
+              "p025": 7.485987850496125,
+              "p975": 7.485987850496125,
+              "min": 7.485987850496125,
+              "max": 7.485987850496125
+            },
+            "slot_errors": {
+              "mean": 15.0,
+              "median": 15.0,
+              "p025": 15.0,
+              "p975": 15.0,
+              "min": 15.0,
+              "max": 15.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.0,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 9.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 6.0,
+              "median": 6.0,
+              "p025": 6.0,
+              "p975": 6.0,
+              "min": 6.0,
+              "max": 6.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 601.0,
+              "median": 601.0,
+              "p025": 601.0,
+              "p975": 601.0,
+              "min": 601.0,
+              "max": 601.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        },
+        {
+          "reviews": 20,
+          "impact": {
+            "reviews": 20,
+            "score_shortfall_pp": 7.485987850496125,
+            "slot_errors": 15,
+            "schools_with_mismatch": 9,
+            "changed_inputs": 13,
+            "unresolved_reviews": 0,
+            "words_reviewed": 1144
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 9.275833394091897,
+              "median": 9.382123116196608,
+              "p025": 8.17156704671362,
+              "p975": 10.333210072718348,
+              "min": 7.131194375906165,
+              "max": 10.333210072718348
+            },
+            "slot_errors": {
+              "mean": 16.275,
+              "median": 16.0,
+              "p025": 15.0,
+              "p975": 18.0,
+              "min": 13.0,
+              "max": 18.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.992,
+              "median": 10.0,
+              "p025": 10.0,
+              "p975": 10.0,
+              "min": 9.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 10.04,
+              "median": 10.0,
+              "p025": 6.0,
+              "p975": 14.0,
+              "min": 3.0,
+              "max": 16.0
+            },
+            "unresolved_reviews": {
+              "mean": 2.341,
+              "median": 2.0,
+              "p025": 0.0,
+              "p975": 5.0,
+              "min": 0.0,
+              "max": 7.0
+            },
+            "words_reviewed": {
+              "mean": 860.338,
+              "median": 853.0,
+              "p025": 576.95,
+              "p975": 1201.05,
+              "min": 448.0,
+              "max": 1566.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 7.485987850496125,
+              "median": 7.485987850496125,
+              "p025": 7.485987850496125,
+              "p975": 7.485987850496125,
+              "min": 7.485987850496125,
+              "max": 7.485987850496125
+            },
+            "slot_errors": {
+              "mean": 15.0,
+              "median": 15.0,
+              "p025": 15.0,
+              "p975": 15.0,
+              "min": 15.0,
+              "max": 15.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.0,
+              "median": 9.0,
+              "p025": 9.0,
+              "p975": 9.0,
+              "min": 9.0,
+              "max": 9.0
+            },
+            "changed_inputs": {
+              "mean": 13.0,
+              "median": 13.0,
+              "p025": 13.0,
+              "p975": 13.0,
+              "min": 13.0,
+              "max": 13.0
+            },
+            "unresolved_reviews": {
+              "mean": 0.0,
+              "median": 0.0,
+              "p025": 0.0,
+              "p975": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "words_reviewed": {
+              "mean": 1144.0,
+              "median": 1144.0,
+              "p025": 1144.0,
+              "p975": 1144.0,
+              "min": 1144.0,
+              "max": 1144.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.002,
+          "fraction_random_with_equal_or_lower_loss": 0.002
+        },
+        {
+          "reviews": 40,
+          "impact": {
+            "reviews": 40,
+            "score_shortfall_pp": 6.682416421924695,
+            "slot_errors": 12,
+            "schools_with_mismatch": 7,
+            "changed_inputs": 24,
+            "unresolved_reviews": 1,
+            "words_reviewed": 2194
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.958422698091075,
+              "median": 8.993924358432633,
+              "p025": 7.457281332427904,
+              "p975": 10.007123116196608,
+              "min": 6.518245915012254,
+              "max": 10.333210072718348
+            },
+            "slot_errors": {
+              "mean": 15.815,
+              "median": 16.0,
+              "p025": 14.0,
+              "p975": 18.0,
+              "min": 13.0,
+              "max": 18.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.973,
+              "median": 10.0,
+              "p025": 9.0,
+              "p975": 10.0,
+              "min": 8.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 20.017,
+              "median": 20.0,
+              "p025": 14.0,
+              "p975": 26.0,
+              "min": 11.0,
+              "max": 29.0
+            },
+            "unresolved_reviews": {
+              "mean": 4.648,
+              "median": 4.0,
+              "p025": 1.0,
+              "p975": 9.0,
+              "min": 0.0,
+              "max": 12.0
+            },
+            "words_reviewed": {
+              "mean": 1715.014,
+              "median": 1704.0,
+              "p025": 1295.775,
+              "p975": 2178.025,
+              "min": 1057.0,
+              "max": 2471.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 6.682416421924695,
+              "median": 6.682416421924695,
+              "p025": 6.682416421924695,
+              "p975": 6.682416421924695,
+              "min": 6.682416421924695,
+              "max": 6.682416421924695
+            },
+            "slot_errors": {
+              "mean": 12.0,
+              "median": 12.0,
+              "p025": 12.0,
+              "p975": 12.0,
+              "min": 12.0,
+              "max": 12.0
+            },
+            "schools_with_mismatch": {
+              "mean": 7.0,
+              "median": 7.0,
+              "p025": 7.0,
+              "p975": 7.0,
+              "min": 7.0,
+              "max": 7.0
+            },
+            "changed_inputs": {
+              "mean": 24.0,
+              "median": 24.0,
+              "p025": 24.0,
+              "p975": 24.0,
+              "min": 24.0,
+              "max": 24.0
+            },
+            "unresolved_reviews": {
+              "mean": 1.0,
+              "median": 1.0,
+              "p025": 1.0,
+              "p975": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "words_reviewed": {
+              "mean": 2194.0,
+              "median": 2194.0,
+              "p025": 2194.0,
+              "p975": 2194.0,
+              "min": 2194.0,
+              "max": 2194.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.001,
+          "fraction_random_with_equal_or_lower_loss": 0.001
+        },
+        {
+          "reviews": 50,
+          "impact": {
+            "reviews": 50,
+            "score_shortfall_pp": 4.95622594573422,
+            "slot_errors": 10,
+            "schools_with_mismatch": 6,
+            "changed_inputs": 31,
+            "unresolved_reviews": 2,
+            "words_reviewed": 2781
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.77875608298433,
+              "median": 8.79656704671362,
+              "p025": 7.319317771955222,
+              "p975": 10.007123116196608,
+              "min": 6.163452440422295,
+              "max": 10.333210072718348
+            },
+            "slot_errors": {
+              "mean": 15.602,
+              "median": 16.0,
+              "p025": 14.0,
+              "p975": 18.0,
+              "min": 12.0,
+              "max": 18.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.954,
+              "median": 10.0,
+              "p025": 9.0,
+              "p975": 10.0,
+              "min": 8.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 25.04,
+              "median": 25.0,
+              "p025": 19.0,
+              "p975": 32.0,
+              "min": 15.0,
+              "max": 36.0
+            },
+            "unresolved_reviews": {
+              "mean": 5.799,
+              "median": 6.0,
+              "p025": 2.0,
+              "p975": 10.0,
+              "min": 1.0,
+              "max": 13.0
+            },
+            "words_reviewed": {
+              "mean": 2147.438,
+              "median": 2140.0,
+              "p025": 1670.875,
+              "p975": 2642.05,
+              "min": 1449.0,
+              "max": 3057.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 4.95622594573422,
+              "median": 4.95622594573422,
+              "p025": 4.95622594573422,
+              "p975": 4.95622594573422,
+              "min": 4.95622594573422,
+              "max": 4.95622594573422
+            },
+            "slot_errors": {
+              "mean": 10.0,
+              "median": 10.0,
+              "p025": 10.0,
+              "p975": 10.0,
+              "min": 10.0,
+              "max": 10.0
+            },
+            "schools_with_mismatch": {
+              "mean": 6.0,
+              "median": 6.0,
+              "p025": 6.0,
+              "p975": 6.0,
+              "min": 6.0,
+              "max": 6.0
+            },
+            "changed_inputs": {
+              "mean": 31.0,
+              "median": 31.0,
+              "p025": 31.0,
+              "p975": 31.0,
+              "min": 31.0,
+              "max": 31.0
+            },
+            "unresolved_reviews": {
+              "mean": 2.0,
+              "median": 2.0,
+              "p025": 2.0,
+              "p975": 2.0,
+              "min": 2.0,
+              "max": 2.0
+            },
+            "words_reviewed": {
+              "mean": 2781.0,
+              "median": 2781.0,
+              "p025": 2781.0,
+              "p975": 2781.0,
+              "min": 2781.0,
+              "max": 2781.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        },
+        {
+          "reviews": 80,
+          "impact": {
+            "reviews": 80,
+            "score_shortfall_pp": 3.527654517162791,
+            "slot_errors": 8,
+            "schools_with_mismatch": 5,
+            "changed_inputs": 49,
+            "unresolved_reviews": 7,
+            "words_reviewed": 3679
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.383851380562472,
+              "median": 8.384333004160428,
+              "p025": 6.603961313841256,
+              "p975": 9.90767815782473,
+              "min": 3.665177768234579,
+              "max": 10.333210072718348
+            },
+            "slot_errors": {
+              "mean": 15.181,
+              "median": 15.0,
+              "p025": 13.0,
+              "p975": 17.0,
+              "min": 10.0,
+              "max": 18.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.904,
+              "median": 10.0,
+              "p025": 9.0,
+              "p975": 10.0,
+              "min": 8.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 39.998,
+              "median": 40.0,
+              "p025": 32.0,
+              "p975": 48.0,
+              "min": 27.0,
+              "max": 52.0
+            },
+            "unresolved_reviews": {
+              "mean": 9.273,
+              "median": 9.0,
+              "p025": 4.0,
+              "p975": 15.0,
+              "min": 2.0,
+              "max": 19.0
+            },
+            "words_reviewed": {
+              "mean": 3438.712,
+              "median": 3423.5,
+              "p025": 2817.85,
+              "p975": 4094.025,
+              "min": 2520.0,
+              "max": 4455.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 3.527654517162791,
+              "median": 3.527654517162791,
+              "p025": 3.527654517162791,
+              "p975": 3.527654517162791,
+              "min": 3.527654517162791,
+              "max": 3.527654517162791
+            },
+            "slot_errors": {
+              "mean": 8.0,
+              "median": 8.0,
+              "p025": 8.0,
+              "p975": 8.0,
+              "min": 8.0,
+              "max": 8.0
+            },
+            "schools_with_mismatch": {
+              "mean": 5.0,
+              "median": 5.0,
+              "p025": 5.0,
+              "p975": 5.0,
+              "min": 5.0,
+              "max": 5.0
+            },
+            "changed_inputs": {
+              "mean": 49.0,
+              "median": 49.0,
+              "p025": 49.0,
+              "p975": 49.0,
+              "min": 49.0,
+              "max": 49.0
+            },
+            "unresolved_reviews": {
+              "mean": 7.0,
+              "median": 7.0,
+              "p025": 7.0,
+              "p975": 7.0,
+              "min": 7.0,
+              "max": 7.0
+            },
+            "words_reviewed": {
+              "mean": 3679.0,
+              "median": 3679.0,
+              "p025": 3679.0,
+              "p975": 3679.0,
+              "min": 3679.0,
+              "max": 3679.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        },
+        {
+          "reviews": 100,
+          "impact": {
+            "reviews": 100,
+            "score_shortfall_pp": 2.55991258167892,
+            "slot_errors": 7,
+            "schools_with_mismatch": 4,
+            "changed_inputs": 59,
+            "unresolved_reviews": 12,
+            "words_reviewed": 4270
+          },
+          "random": {
+            "score_shortfall_pp": {
+              "mean": 8.091214725791172,
+              "median": 8.17156704671362,
+              "p025": 6.178429398947639,
+              "p975": 9.876508081098386,
+              "min": 3.665177768234579,
+              "max": 10.333210072718348
+            },
+            "slot_errors": {
+              "mean": 14.877,
+              "median": 15.0,
+              "p025": 13.0,
+              "p975": 17.0,
+              "min": 10.0,
+              "max": 18.0
+            },
+            "schools_with_mismatch": {
+              "mean": 9.847,
+              "median": 10.0,
+              "p025": 9.0,
+              "p975": 10.0,
+              "min": 8.0,
+              "max": 10.0
+            },
+            "changed_inputs": {
+              "mean": 49.995,
+              "median": 50.0,
+              "p025": 42.0,
+              "p975": 59.0,
+              "min": 37.0,
+              "max": 64.0
+            },
+            "unresolved_reviews": {
+              "mean": 11.625,
+              "median": 12.0,
+              "p025": 6.0,
+              "p975": 18.0,
+              "min": 3.0,
+              "max": 22.0
+            },
+            "words_reviewed": {
+              "mean": 4301.602,
+              "median": 4300.5,
+              "p025": 3630.95,
+              "p975": 4970.2,
+              "min": 3369.0,
+              "max": 5419.0
+            }
+          },
+          "impact_tie_sensitivity": {
+            "score_shortfall_pp": {
+              "mean": 2.55991258167892,
+              "median": 2.55991258167892,
+              "p025": 2.55991258167892,
+              "p975": 2.55991258167892,
+              "min": 2.55991258167892,
+              "max": 2.55991258167892
+            },
+            "slot_errors": {
+              "mean": 7.0,
+              "median": 7.0,
+              "p025": 7.0,
+              "p975": 7.0,
+              "min": 7.0,
+              "max": 7.0
+            },
+            "schools_with_mismatch": {
+              "mean": 4.0,
+              "median": 4.0,
+              "p025": 4.0,
+              "p975": 4.0,
+              "min": 4.0,
+              "max": 4.0
+            },
+            "changed_inputs": {
+              "mean": 59.0,
+              "median": 59.0,
+              "p025": 59.0,
+              "p975": 59.0,
+              "min": 59.0,
+              "max": 59.0
+            },
+            "unresolved_reviews": {
+              "mean": 12.0,
+              "median": 12.0,
+              "p025": 12.0,
+              "p975": 12.0,
+              "min": 12.0,
+              "max": 12.0
+            },
+            "words_reviewed": {
+              "mean": 4270.0,
+              "median": 4270.0,
+              "p025": 4270.0,
+              "p975": 4270.0,
+              "min": 4270.0,
+              "max": 4270.0
+            }
+          },
+          "fraction_random_with_strictly_lower_loss": 0.0,
+          "fraction_random_with_equal_or_lower_loss": 0.0
+        }
+      ]
+    }
+  },
+  "reading_volume_sensitivity": [
+    {
+      "word_cap": 1144,
+      "impact_reviews": 20,
+      "impact": {
+        "reviews": 20,
+        "score_shortfall_pp": 5.874204480036498,
+        "slot_errors": 12,
+        "schools_with_mismatch": 8,
+        "changed_inputs": 13,
+        "unresolved_reviews": 0,
+        "words_reviewed": 1144
+      },
+      "random": {
+        "score_shortfall_pp": {
+          "mean": 8.846617322578105,
+          "median": 9.101154834646428,
+          "p025": 6.878932612424205,
+          "p975": 10.348899978032183,
+          "min": 5.836247268166243,
+          "max": 10.457537813369834
+        },
+        "slot_errors": {
+          "mean": 13.846,
+          "median": 14.0,
+          "p025": 13.0,
+          "p975": 15.0,
+          "min": 12.0,
+          "max": 15.0
+        },
+        "schools_with_mismatch": {
+          "mean": 8.983,
+          "median": 9.0,
+          "p025": 9.0,
+          "p975": 9.0,
+          "min": 8.0,
+          "max": 9.0
+        },
+        "reviews": {
+          "mean": 26.5,
+          "median": 26.0,
+          "p025": 18.0,
+          "p975": 35.0,
+          "min": 14.0,
+          "max": 41.0
+        },
+        "words_reviewed": {
+          "mean": 1106.038,
+          "median": 1117.0,
+          "p025": 1009.95,
+          "p975": 1143.0,
+          "min": 896.0,
+          "max": 1144.0
+        },
+        "unresolved_reviews": {
+          "mean": 3.584,
+          "median": 3.0,
+          "p025": 0.0,
+          "p975": 8.0,
+          "min": 0.0,
+          "max": 10.0
+        }
+      }
+    },
+    {
+      "word_cap": 2770,
+      "impact_reviews": 50,
+      "impact": {
+        "reviews": 50,
+        "score_shortfall_pp": 2.4309810368130553,
+        "slot_errors": 7,
+        "schools_with_mismatch": 5,
+        "changed_inputs": 33,
+        "unresolved_reviews": 3,
+        "words_reviewed": 2770
+      },
+      "random": {
+        "score_shortfall_pp": {
+          "mean": 8.452680223642728,
+          "median": 8.666372225950777,
+          "p025": 6.401793205936973,
+          "p975": 10.35115483464643,
+          "min": 5.72755161599233,
+          "max": 10.67373547980772
+        },
+        "slot_errors": {
+          "mean": 13.555,
+          "median": 14.0,
+          "p025": 12.0,
+          "p975": 15.0,
+          "min": 11.0,
+          "max": 16.0
+        },
+        "schools_with_mismatch": {
+          "mean": 8.915,
+          "median": 9.0,
+          "p025": 8.0,
+          "p975": 9.0,
+          "min": 8.0,
+          "max": 10.0
+        },
+        "reviews": {
+          "mean": 64.306,
+          "median": 64.0,
+          "p025": 52.0,
+          "p975": 78.0,
+          "min": 46.0,
+          "max": 83.0
+        },
+        "words_reviewed": {
+          "mean": 2730.798,
+          "median": 2744.0,
+          "p025": 2620.925,
+          "p975": 2769.0,
+          "min": 2536.0,
+          "max": 2770.0
+        },
+        "unresolved_reviews": {
+          "mean": 8.678,
+          "median": 9.0,
+          "p025": 4.0,
+          "p975": 14.0,
+          "min": 1.0,
+          "max": 18.0
+        }
+      }
+    },
+    {
+      "word_cap": 4696,
+      "impact_reviews": 100,
+      "impact": {
+        "reviews": 100,
+        "score_shortfall_pp": 1.8904404962725145,
+        "slot_errors": 5,
+        "schools_with_mismatch": 4,
+        "changed_inputs": 59,
+        "unresolved_reviews": 12,
+        "words_reviewed": 4696
+      },
+      "random": {
+        "score_shortfall_pp": {
+          "mean": 7.983386167531803,
+          "median": 8.058469490388465,
+          "p025": 5.729864289442839,
+          "p975": 10.245118756940599,
+          "min": 5.015578575157124,
+          "max": 10.78362476989157
+        },
+        "slot_errors": {
+          "mean": 13.051,
+          "median": 13.0,
+          "p025": 11.0,
+          "p975": 15.0,
+          "min": 10.0,
+          "max": 16.0
+        },
+        "schools_with_mismatch": {
+          "mean": 8.772,
+          "median": 9.0,
+          "p025": 8.0,
+          "p975": 9.0,
+          "min": 7.0,
+          "max": 10.0
+        },
+        "reviews": {
+          "mean": 108.886,
+          "median": 109.0,
+          "p025": 93.0,
+          "p975": 125.0,
+          "min": 82.0,
+          "max": 135.0
+        },
+        "words_reviewed": {
+          "mean": 4658.21,
+          "median": 4670.0,
+          "p025": 4562.0,
+          "p975": 4695.0,
+          "min": 4459.0,
+          "max": 4696.0
+        },
+        "unresolved_reviews": {
+          "mean": 14.745,
+          "median": 15.0,
+          "p025": 8.0,
+          "p975": 21.024999999999977,
+          "min": 5.0,
+          "max": 26.0
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Selected queue; not a population accuracy estimate",
+    "Model-review endpoint is a proxy and may be wrong",
+    "Reference ties are accepted; unresolved reviews consume budget and preserve the initial prediction",
+    "Review count and word count are not measured human time",
+    "No minimum school-coverage constraint; 18 of the first 20 inputs concentrated in one school",
+    "Offline replay; no deployed decision outcome was measured"
+  ]
+}
